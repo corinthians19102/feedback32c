@@ -13,11 +13,11 @@ export function CardInicial({ handleChangeRateNote, handleSubmit }) {
         <p className="text-light-grey text-sm leading-1 mb-6">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
         <div className="flex justify-between mb-6">
-          <inputButton value={1} handleChangeRateNote={handleChangeRateNote} />
-          <inputButton value={2} handleChangeRateNote={handleChangeRateNote} />
-          <inputButton value={3} handleChangeRateNote={handleChangeRateNote} />
-          <inputButton value={4} handleChangeRateNote={handleChangeRateNote} />
-          <inputButton value={5} handleChangeRateNote={handleChangeRateNote} />
+          <InputButton value={1} handleChangeRateNote={handleChangeRateNote} />
+          <InputButton value={2} handleChangeRateNote={handleChangeRateNote} />
+          <InputButton value={3} handleChangeRateNote={handleChangeRateNote} />
+          <InputButton value={4} handleChangeRateNote={handleChangeRateNote} />
+          <InputButton value={5} handleChangeRateNote={handleChangeRateNote} />
         </div>
 
         <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1 hover:bg-white hover:text-orange cursor-pointer transition duration-400" onClick={handleSubmit}>Submit</button>
